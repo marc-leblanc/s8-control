@@ -5,7 +5,7 @@ module "s8-mgmt-project" {
   name = "s8-mgmt"
   org_id = "100717491706"
   billing_account ="01128B-9D6E9D-A24858"
-  svpc_project_id = "s8-network"
+  svpc_host_project_id = "s8-network"
   folder_id = "343239494171"
   shared_vpc_subnets = [ 
       "projects/s8-network/regions/northamerica-northeast1/subnetworks/s8-mgmt-gke-subnet",
